@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "todos",
+  "info": {
+    "singularName": "todo",
+    "pluralName": "todos",
+    "displayName": "todo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "todo_name": {
+      "type": "text"
+    },
+    "todo_start": {
+      "type": "date"
+    }
+  }
+}
